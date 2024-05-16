@@ -1,0 +1,107 @@
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #1e1e1e; /* Dark background color */
+    color: #fff; /* Light text color */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure body covers entire viewport height */
+    /* background: url('https://wallpapercave.com/wp/wp4846602.jpg') no-repeat center center fixed;
+    background-size: cover; */
+  }
+  
+  .header {
+    background: linear-gradient(135deg, #485461, #28313b); /* Gradient background for header */
+    padding: 30px 20px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .header h1 {
+    margin: 0;
+    font-size: 24px;
+    color: #fff; /* Light text color */
+  }
+  
+  .header nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10;
+  }
+  
+  .header nav ul li {
+    display: inline;
+    margin-right: 20px;
+  }
+  
+  .header nav ul li a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .header nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .chat-container {
+    width: 70%; /* Take 70% of the screen width */
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .chat {
+    flex: 1;
+    overflow-y: auto;
+  }
+  
+  .chat-messages {
+    padding: 10px;
+  }
+  
+  .input-box {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #444;
+    z-index: 2;
+    position: sticky;
+    bottom: 0;
+  }
+  
+  .input-box input {
+    flex: 1;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-right: 10px;
+    width: calc(100% - 120px);
+  }
+  
+  .input-box button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .input-box button:hover {
+    background-color: #0056b3;
+  }
+  
+  .user-message {
+    color: #28a745; /* Green color for user messages */
+    font-size: 16px; /* Adjusted font size for user messages */
+}
+
+.bot-message {
+    color: #007bff; /* Blue color for bot messages */
+    font-size: 16px; /* Adjusted font size for bot messages */
+}
+
+
